@@ -6,9 +6,9 @@ OPERACOES = []
 def exibir_menu(saldo: float):
     menu  = f"""
 {"-"*65}
-    --- Banco Python ---
+                    --- Banco Python ---
 {"-"*65}
-    ---     Resumo geral     ---
+                    --- Resumo geral ---
 {"-"*65}
 Saldo Atual: R$ {saldo:,.2f}
 Limite de Saques Permitidos: {LIMITE_SAQUES}
@@ -87,17 +87,17 @@ def realizar_deposito(saldo_cliente: float):
     return saldo_cliente
 
 def realizar_saque(saldo_cliente: float):
-    print("\n--- Realizando deposito ---\n")
-    valor = float(input("Digite o valor para depositop: "))
+    print("\n--- Realizando saque ---\n")
+    valor = float(input("Digite o valor para saque: "))
     
     if validar_saque(saldo_cliente, valor):
         saldo_cliente = sacar(saldo_cliente, valor) 
         
         registrar = {
-        "Saque": f"R$ {valor:,.2f}",
-        "Saldo Atualizado": f"R$ {saldo_cliente:,.2f}",
-        "Limite de Saques": LIMITE_SAQUES,
-        "Valor maximo de Saque": f"R$ {LIMITE_VALOR_SAQUE:,.2f}"
+            "Saque": f"R$ {valor:,.2f}",
+            "Saldo Atualizado": f"R$ {saldo_cliente:,.2f}",
+            "Limite de Saques": LIMITE_SAQUES,
+            "Valor máximo de Saque": f"R$ {LIMITE_VALOR_SAQUE:,.2f}"
         }
         registrar_extrato(registrar)
         return saldo_cliente
