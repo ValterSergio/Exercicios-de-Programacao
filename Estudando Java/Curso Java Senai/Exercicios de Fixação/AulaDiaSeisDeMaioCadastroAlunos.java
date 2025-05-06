@@ -25,17 +25,26 @@ class Aluno {
     private int matricula;
     private int totalBimestres = 3;
     private double[] notasRegistradas;
+    private double media;
 
     public Aluno(String nome, int matricula) {
         this.nome = nome;
         this.matricula = matricula;
         this.notasRegistradas = new double[totalBimestres];
+        this.media = 0;
     }
 
     public void setTotalBimestres(int total){
         this.totalBimestres = total;
     }
 
+    public double getMedia(){
+        return this.media;
+    }
+
+    public void setMedia(double valor){
+        this.media = valor;
+    }
 
     public String getNome() {
         return this.nome;
@@ -63,6 +72,7 @@ class Aluno {
     }
 
     public void exibirNotas() {
+        calcularMedia();
         System.out.println("------------------------------------------------------");
         System.out.println("Dados do Aluno:");
         System.out.println("------------------------------------------------------");
@@ -73,16 +83,16 @@ class Aluno {
             System.out.printf("%dº Trimestre: %.1f%n", i + 1, notasRegistradas[i]);
         }
         System.out.println("------------------------------------------------------");
-        System.out.printf("Média do Aluno: %.1f%n", calcularMedia());
+        System.out.printf("Média do Aluno: %.1f%n", this.media);
         System.out.println("------------------------------------------------------");
     }
 
-    public double calcularMedia() {
+    public void calcularMedia() {
         double soma = 0;
         for (double nota : notasRegistradas) {
             soma += nota;
         }
-        return soma / notasRegistradas.length;
+        setMedia((soma / notasRegistradas.length));
     }
 
 }
