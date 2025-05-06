@@ -1,4 +1,5 @@
-/*
+/* 
+ * ----  Composição com injeção de Dependência ----
  * Agregação: Aluno existe independente de curso
  * Aluno: Agrega o Curso, mas o curso vai continuar lá mesmo sem alunos
  * Curso: Pode ter Varios Alunos
