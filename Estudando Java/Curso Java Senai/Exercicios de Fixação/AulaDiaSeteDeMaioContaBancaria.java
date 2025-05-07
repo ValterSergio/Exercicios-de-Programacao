@@ -28,7 +28,7 @@ class Cliente{
         return this.saldo;
     }
 
-    public double getIdade(){
+    public int getIdade(){
         return this.idade;
     }
 
@@ -41,7 +41,7 @@ class Cliente{
     }
 
     public void setTipoConta(String tipoConta){
-        this.nome = tipoConta;
+        this.tipoConta = tipoConta;
     }
 
     public void setSaldo(double saldo){
