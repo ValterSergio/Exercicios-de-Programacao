@@ -1,36 +1,27 @@
 /*
-    Faça um programa que lê um valor em metros e exibe suas conversões para
-    varias unidades de medida.
-    Este programa deve converter de Metros para quilometro, hectometros, decametros
-    metros, decimetros, centimetros e milimetros
+    Program que lê um número inteiro e exibe sua tabuada (multiplicações de 1 a 10)
+
 */
 
 #include <stdio.h>
 
 int main(void){
-    float metro;
-    printf("Digite Total em Metros: ");
-    scanf("%f", &metro);
-    
-    // metro 1
-    float quilometro = metro / 1000; // 1 km igual a 1000 metros
-    float hectometro = metro / 100; // 1 hectometro igual 100 metros 
-    float decametro = metro / 10; // 1 decametro igual 10 metros
-    float decimetro = metro * 10; // 1 metro tem 10 Decimetros
-    float centimetro = metro * 100; // 1 metro tem 100 centimetros
-    float milimetros = metro * 1000; // 1 metro tem 1000 centimetros
-    
 
-    // saida
-    printf("\nConversões:\n");
-    printf("Quilômetros: %.3f km\n", quilometro);
-    printf("Hectômetros: %.2f hm\n", hectometro);
-    printf("Decâmetros : %.2f dam\n", decametro);
-    printf("Metros     : %.2f m\n", metro);
-    printf("Decímetros : %.0f dm\n", decimetro);
-    printf("Centímetros: %.0f cm\n", centimetro);
-    printf("Milímetros : %.0f mm\n", milimetros);
+    int n;
+
+    printf("Digite um numero para a tabuada: ");
+    scanf("%d", &n);
+
+    printf("\n%d * 1: %d", n, n * 1);
+    printf("\n%d * 2: %d", n, n * 2);
+    printf("\n%d * 3: %d", n, n * 3);
+    printf("\n%d * 4: %d", n, n * 4);
+    printf("\n%d * 5: %d", n, n * 5);
+    printf("\n%d * 6: %d", n, n * 6);
+    printf("\n%d * 7: %d", n, n * 7);
+    printf("\n%d * 8: %d", n, n * 8);
+    printf("\n%d * 9: %d", n, n * 9);
+    printf("\n%d * 10: %d", n, n * 10);
 
     return 0;
-
 }
