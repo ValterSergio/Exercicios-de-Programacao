@@ -1,4 +1,4 @@
-public class SistemaCadastroAlunos {
+public class AulaDiaSeisDeMaioCadastroAlunos {
 
     
     public static void main(String[] args) {
