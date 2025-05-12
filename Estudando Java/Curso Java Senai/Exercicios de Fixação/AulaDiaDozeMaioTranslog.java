@@ -129,7 +129,7 @@ class Oficina {
 
     public void adicionarVeiculo(Veiculo veiculo){
         boolean adicionado = false;
-        int posicao = -1;
+        int posicao = 0;
 
         for (int i = 0; i < veiculosVetor.length; i++) {
             if (veiculosVetor[i] == null){
@@ -141,7 +141,7 @@ class Oficina {
         }
 
         if (adicionado && posicao != -1) {
-            System.out.println("Posição do " + veiculo.getModelo() + " " + posicao);
+            System.out.println("Posição do " + veiculo.getModelo() + ": " + posicao);
         } else {
             System.out.println("Falta espaço de armazenamento");
         }
@@ -159,28 +159,28 @@ class Oficina {
 
 public class AulaDiaDozeMaioTranslog {
     public static void main(String[] args) {
-        System.out.println("---- carro \n");
+        System.out.println("\n---- carro ");
         Carro carro = new Carro("Chevrolet Voyage", 1999, 4);
         carro.ligar();
         carro.tocarSom();
         
-        System.out.println("---- Moto \n");
+        System.out.println("\n---- Moto ");
         Moto moto = new Moto("Honda Cg 125", 2002, true);
         moto.ligar();
         moto.empinar();
         
-        System.out.println("---- Caminhão \n");
+        System.out.println("\n---- Caminhão ");
         Caminhao caminhao = new Caminhao("Scania", 2025, 10);
         caminhao.ligar();
         caminhao.carregarCarga(250);
         
-        System.out.println("---- Oficina \n");
+        System.out.println("\n---- Oficina ");
         Oficina oficina = new Oficina(10);
         oficina.adicionarVeiculo(carro);
         oficina.adicionarVeiculo(moto);
         oficina.adicionarVeiculo(caminhao);
 
-        System.out.println("--- Revisão \n");
+        System.out.println("\n--- Revisão ");
         oficina.revisarVeiculo();
     }
 }
