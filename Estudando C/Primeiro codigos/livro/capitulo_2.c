@@ -50,7 +50,19 @@ int main(){
     scanf("%d", &chute);
     printf("Seu chute foi: %d", chute);
 
-    
+    // controle de fluxo com ifs e fors
+    /*
+        Se chute FOR IGUAL A numero secreto, ENTAO
+            Avisa que ele acertou
+        CASO CONTRARIO
+            Avisa que ele errou
+    */
+
+    if (chute == numerosecreto) {
+        printf("Parabens, voce acertou !\n");
+    } else {
+        printf("Voce errou !!!\n");
+    }
 
 
 
