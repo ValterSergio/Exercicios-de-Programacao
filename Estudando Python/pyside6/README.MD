@@ -24,3 +24,9 @@ informar os dados pedidos, foi criado um botão validar que espera a resposta do
 ele informa o total de anos, meses e dias do usuario se a idade dele estiver entre 18 e 100 anos caso contrario ele envia uma mensagem negando a informação, um Qlabel que atualiza a cada alteração nos campos de 
 entradas
     - Todos os widgets foram organizados dentro de um QGridLayout
+
+## Desafio 3: Conectando funções em botões
+    Somar Dois números fornecidos pelo usúario
+    - Foi criado um Qform como parte de um layout vertical, para obter os numeros do usuario
+    - Foi criado um botão para se conectar com uma função de soma
+    - Usa um rótulo Qlabel para exibir o resultado

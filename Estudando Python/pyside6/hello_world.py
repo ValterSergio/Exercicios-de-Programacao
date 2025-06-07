@@ -29,7 +29,7 @@ def mudar_cor(botao: QPushButton):
     botao.setStyleSheet(f"background-color:{choice(cores)}; color: {choice(cores)}")
 
 # inicia a aplicação
-app = QApplication()
+app = QApplication([])
 
 # cria um botão
 botao_hello_world = QPushButton("Hello World")
