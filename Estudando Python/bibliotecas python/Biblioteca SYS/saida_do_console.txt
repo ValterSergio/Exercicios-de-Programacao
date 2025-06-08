@@ -1,0 +1,5 @@
+Adicionando registro:
+
+Este texto vai para o arquivo 'saida_do_console.txt'.
+
+Registro feito com sucesso
