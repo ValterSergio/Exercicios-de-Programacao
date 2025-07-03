@@ -30,3 +30,5 @@ entradas
     - Foi criado um Qform como parte de um layout vertical, para obter os numeros do usuario
     - Foi criado um botão para se conectar com uma função de soma
     - Usa um rótulo Qlabel para exibir o resultado
+
+## Desafio 4:  
