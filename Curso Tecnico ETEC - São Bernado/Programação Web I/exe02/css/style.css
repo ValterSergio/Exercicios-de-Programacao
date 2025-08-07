@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(12, 87, 90);
+}
+
+h1 {
+    color: azure;
+    font-size: 35px;
+}
+
+p {
+    color: azure;
+    font-size: 25px;
+}
+
+strong {
+    color: black;
+    font-style: oblique;
+}
+
+button {
+    background-color: rgb(12, 87, 90);
+    border-color: azure;
+}
+
+a {
+    color: azure;
+    background-color: rgb(12, 87, 90);
+}
+
+figcaption {
+ background-color: rgb(12, 87, 90);
+ color: azure;
+ font-style: italic;
+}
+
+.recuo {
+    text-indent: 2em;
+}
+
+
+.tabela {
+    /* Juntando as bordas */
+    border-collapse: collapse;
+
+    /* Modificando a cor da fonte da tabela principal */
+    color: black;
+
+    /* Definindo um espaço mais legivel para leitura */
+    border-spacing: 5px;
+
+}
+
+.tabela tr {
+    border: solid black;
+    padding: 8px;
+    text-align: center;
+    
+}
+
+.tabela td {
+    border-left: 2px solid black;
+}
+
+.tabela th {
+    border-right: 2px solid black;
+}

@@ -1,0 +1,25 @@
+/* Padroniza as tags h1 do arquivo html */
+h1 {
+    color: aquamarine;
+    font-size: 35px;
+    text-align:center
+}
+
+/* Padroniza todos os paragrafos  */
+p {
+    color: azure;
+    font-size: 20px;
+
+}
+
+/* Padroniza o body do html */
+body {
+    background-color: black;
+}
+
+/* Estiliza o titulo da foto */
+figcaption {
+    color: aquamarine;
+    font-style: italic;
+    text-align: top;
+}
