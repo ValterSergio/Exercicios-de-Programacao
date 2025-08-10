@@ -1,0 +1,8 @@
+C:\Users\valte\OneDrive - Etec Centro Paula Souza\Exercicios-de-Programacao\Curso Tecnico ETEC - São Bernado\Programação e Algoritmos I\Codigos C#\Exe04_PRL_090825\Exe04_PRL_090825\bin\Debug\Exe04_PRL_090825.exe.config
+C:\Users\valte\OneDrive - Etec Centro Paula Souza\Exercicios-de-Programacao\Curso Tecnico ETEC - São Bernado\Programação e Algoritmos I\Codigos C#\Exe04_PRL_090825\Exe04_PRL_090825\bin\Debug\Exe04_PRL_090825.exe
+C:\Users\valte\OneDrive - Etec Centro Paula Souza\Exercicios-de-Programacao\Curso Tecnico ETEC - São Bernado\Programação e Algoritmos I\Codigos C#\Exe04_PRL_090825\Exe04_PRL_090825\bin\Debug\Exe04_PRL_090825.pdb
+C:\Users\valte\OneDrive - Etec Centro Paula Souza\Exercicios-de-Programacao\Curso Tecnico ETEC - São Bernado\Programação e Algoritmos I\Codigos C#\Exe04_PRL_090825\Exe04_PRL_090825\obj\Debug\Exe04_PRL_090825.csproj.AssemblyReference.cache
+C:\Users\valte\OneDrive - Etec Centro Paula Souza\Exercicios-de-Programacao\Curso Tecnico ETEC - São Bernado\Programação e Algoritmos I\Codigos C#\Exe04_PRL_090825\Exe04_PRL_090825\obj\Debug\Exe04_PRL_090825.csproj.CoreCompileInputs.cache
+C:\Users\valte\OneDrive - Etec Centro Paula Souza\Exercicios-de-Programacao\Curso Tecnico ETEC - São Bernado\Programação e Algoritmos I\Codigos C#\Exe04_PRL_090825\Exe04_PRL_090825\obj\Debug\Exe04_PRL_090825.exe
+C:\Users\valte\OneDrive - Etec Centro Paula Souza\Exercicios-de-Programacao\Curso Tecnico ETEC - São Bernado\Programação e Algoritmos I\Codigos C#\Exe04_PRL_090825\Exe04_PRL_090825\obj\Debug\Exe04_PRL_090825.pdb
+C:\Users\valte\OneDrive - Etec Centro Paula Souza\Exercicios-de-Programacao\Curso Tecnico ETEC - São Bernado\Programação e Algoritmos I\Codigos C#\Exe04_PRL_090825\Exe04_PRL_090825\obj\Debug\Exe04_PRL_090825.exe.config

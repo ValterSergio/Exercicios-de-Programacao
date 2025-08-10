@@ -1,0 +1,8 @@
+C:\Users\valte\OneDrive - Etec Centro Paula Souza\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Project Euler\Exe03_090825\Exe03_090825\obj\Debug\Exe03_090825.csproj.AssemblyReference.cache
+C:\Users\valte\OneDrive - Etec Centro Paula Souza\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Project Euler\Exe03_090825\Exe03_090825\obj\Debug\Exe03_090825.csproj.CoreCompileInputs.cache
+C:\Users\valte\OneDrive - Etec Centro Paula Souza\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Project Euler\Exe03_090825\Exe03_090825\bin\Debug\Exe03_090825.exe.config
+C:\Users\valte\OneDrive - Etec Centro Paula Souza\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Project Euler\Exe03_090825\Exe03_090825\bin\Debug\Exe03_090825.exe
+C:\Users\valte\OneDrive - Etec Centro Paula Souza\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Project Euler\Exe03_090825\Exe03_090825\bin\Debug\Exe03_090825.pdb
+C:\Users\valte\OneDrive - Etec Centro Paula Souza\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Project Euler\Exe03_090825\Exe03_090825\obj\Debug\Exe03_090825.exe
+C:\Users\valte\OneDrive - Etec Centro Paula Souza\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Project Euler\Exe03_090825\Exe03_090825\obj\Debug\Exe03_090825.pdb
+C:\Users\valte\OneDrive - Etec Centro Paula Souza\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Project Euler\Exe03_090825\Exe03_090825\obj\Debug\Exe03_090825.exe.config
