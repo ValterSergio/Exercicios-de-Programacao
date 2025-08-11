@@ -1,0 +1,23 @@
+Elabore um programa que leia duas notas de um aluno em uma disciplina.
+Calcule e informe a média das notas
+
+VAR
+    nota1: real
+    nota2: real
+    media: real
+
+INICIO
+    // ENTRADA
+    mostrar("Informe a 1° nota: ")
+    ler(nota1)
+
+    mostrar("Informe a 2° nota: ")
+    ler(nota2)
+
+    // PROCESSAMENTO
+    media <- (nota1 + nota2) / 2
+
+    // SAÍDA
+    exibir("Aluno com média: ", media)
+
+FIM

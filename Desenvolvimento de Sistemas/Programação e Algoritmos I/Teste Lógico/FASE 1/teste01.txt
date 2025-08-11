@@ -1,0 +1,21 @@
+Elaborar um programa que leia um número. Calcule e informe os seus vizinhos,
+ou seja, o número anterior e o posterior
+
+VAR
+    numero: inteiro
+    anterior: inteiro
+    posterior: inteiro
+
+INICIO
+    // ENTRADA
+    mostrar("Digite um número: ")
+    ler(numero)
+
+    // PROCESSAMENTO
+    anterior <- numero - 1
+    posterior <- nmero + 1
+
+    // SAÍDA
+    exibir("vizinhos encontrados: " + anterior + " e " + posterior)
+
+FIM

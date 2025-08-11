@@ -1,0 +1,8 @@
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Códigos para praticar\Exe01\Exe01\bin\Debug\Exe01.exe.config
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Códigos para praticar\Exe01\Exe01\bin\Debug\Exe01.exe
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Códigos para praticar\Exe01\Exe01\bin\Debug\Exe01.pdb
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Códigos para praticar\Exe01\Exe01\obj\Debug\Exe01.csproj.AssemblyReference.cache
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Códigos para praticar\Exe01\Exe01\obj\Debug\Exe01.csproj.CoreCompileInputs.cache
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Códigos para praticar\Exe01\Exe01\obj\Debug\Exe01.exe
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Códigos para praticar\Exe01\Exe01\obj\Debug\Exe01.pdb
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Códigos para praticar\Exe01\Exe01\obj\Debug\Exe01.exe.config

@@ -1,0 +1,24 @@
+Elaborar um programa para uma loja, o qual leia o preço de um produto
+e informe as opções de pagamento da loja. Calcule e informe o valor 
+para pagamento a vista com 10% de desconto e o valor em 3x.
+
+
+
+VAR
+    preco: real
+    vista: real
+    parcela: real
+
+INICIO
+    // ENTRADA
+    mostrar("Informe o preço do produto: ")
+    ler(preco)
+
+    // PROCESSAMENTO
+    vista = <- preco * (1 - (10/100))
+    parcela = <- preco / 3
+
+    // SAÍDA
+    exibir("Valor à vista: ", vista)
+    exibir("Valor em 3x: ", parcela)
+FIM
