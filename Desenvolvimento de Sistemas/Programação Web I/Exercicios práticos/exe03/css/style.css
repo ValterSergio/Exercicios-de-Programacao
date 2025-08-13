@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+}
+
+header {
+    margin: 10px;
+    border: ridge;
+    border-color: rgb(62, 255, 4);
+    background-color: greenyellow;
+}
+.lista_cabecalho {
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-align: center;
+}
+
+.titulo_cabecalho {
+    margin: 10px;
+    text-align: center;
+}
+
+.conteudo_principal {
+    margin: 10px;
+    background-color: greenyellow;
+}
+
+.margin {
+    margin: 10px;
+    text-indent: 20px;
+}
