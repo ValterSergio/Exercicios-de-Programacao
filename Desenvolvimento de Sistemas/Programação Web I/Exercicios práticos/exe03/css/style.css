@@ -1,12 +1,12 @@
 body {
     background-color: black;
-}
+} 
 
 header {
     margin: 10px;
-    border: ridge;
-    border-color: rgb(62, 255, 4);
-    background-color: greenyellow;
+    border: groove;
+    border-color: yellow;
+    background-color: rgb(62, 255, 4);
 }
 .lista_cabecalho {
     text-align: center;
@@ -23,11 +23,28 @@ a {
 }
 
 .conteudo_principal {
+    border: groove;
+    border-color: yellow;
     margin: 10px;
-    background-color: greenyellow;
+    background-color: rgb(62, 255, 4);
 }
 
 .margin {
     margin: 10px;
     text-indent: 20px;
+}
+
+footer {
+    background-color: rgb(62, 255, 4);
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+
+    align-content: center;
+    background-color: rgb(62, 255, 4);
+    border: groove;
+    border-color: yellow;
 }

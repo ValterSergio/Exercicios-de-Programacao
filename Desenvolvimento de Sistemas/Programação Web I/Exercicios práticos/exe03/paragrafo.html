@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura HTML</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo_cabecalho">Estrutura HTML - andamento</h1>
+
+        <nav>
+            <ul class="lista_cabecalho" type="none">
+                <li><a href="index.html">Estrutura de pastas</a></li>
+                <li><a href="imagens.html">Imagens</a></li>
+                <li><a href="formulario.html">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="conteudo_principal">
+        <h1 class="titulo_cabecalho">Estrutura base de documentos html</h1>
+
+        <p class="margin">A estrutura ideal para um documento html possui <strong>CABEÇALHO, SEÇÃO (CONTEUDO PRINCIPAL DA PAGINA), RODAPÉ</strong> e claro algumas coisas podem variar comforme o tipo de projeto que está sendo desenvolvido.</p>
+
+        <h1 class="titulo_cabecalho">Partes obrigatorias do documento HTML</h1>
+
+        <p class="margin"><strong>DOCTYPE: </strong>Essa é uma instrução para o navegador, serve para informar como o código deve ser interpretado, sem isso alguns navegadores podem entrar em <i>modo de compatibilidade</i> antigo, conhecido como <strong><i>quirks mode</i></strong>, interpetando o código de forma inconsistente e com regras antigas, ou seja essa linha garante que o navegador vai renderizar a página usando as regtas modernas do html5, alguns navegadores ajudam se essa linha for esquecida, eles tentam "adivinhar" e corrigir. </p>
+
+        <p class="margin"><strong>HTML: </strong>Essa linha é a <i>tag raiz</i> do html, tudo que escrevemos deve estar dentro dessa tag, ela possui um atributo de linguagem chamada <i>lang</i> que define o idioma principal da página, usado para acessibilidade onde os leitores de tela(usado por pessoas cegas) usam para a linguagem ser pronunciada corretamente, tambem é usado em mecanismos de buscas que usam esse atributo para entregar a página para o público certo, permite a tradução automatica</p>
+        
+        <p class="margin"><strong>HEAD: </strong>Essa tag configura e descreve a página a ser renderizada e não o que usuário vai visualizar diretamente, aqui podemos definir o titulo da pagina, os metadados, metatags, links para arquivos externos para CSS, icones, scripts que devem ser carregados antes do corpo principal da pagina, permitindo conexão com fontes externas, redes socias, configurrações de responsividade e etc.</p>
+    </section>
+</body>
+</html>
