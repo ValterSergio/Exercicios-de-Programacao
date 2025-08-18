@@ -25,7 +25,7 @@ def calcular_mdc(a: int, b: int) -> int:
             divisor = resto
 
 if __name__ == "__main__":
-    n1 = 32
-    n2 = 48
+    n1 = 123456789012345678901234567890
+    n2 = 1234
 
     print(f"O mdc de {n1, n2} é: {calcular_mdc(n1, n2)}")
