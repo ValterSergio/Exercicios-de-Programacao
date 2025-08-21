@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Colentando dados do usuário</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo_cabecalho">Criando Formularios para coleta de entrada</h1>
+        <h3>Criando cadastro</h3>
+    </header>
+    <section class="conteudo_principal">
+        <!-- Iniciando um formulario -->
+        <form name="Cadastro" action="script.js" method="get">
+            <label for="nome">Nome: </label>
+            <input id="nome" type="text" name="nome" placeholder="Escreva seu nome aqui..." required><br>
+
+            <label for="nascimento">Data de nascimento: </label>
+            <input id="nascimento" type="text" name="nascimento" placeholder="dd/mm/aaaa" required><br>
+
+            <label for="email">Email: </label>
+            <input id="email" type="email" name="email" placeholder="Escreva seu email aqui..." required><br>
+
+            <label for="telefone">Telefone para contato: </label>
+            <input id="telefone" type="text" name="telefone" placeholder="Escreva o telefone aqui..." required><br>
+
+            <label for="cpf">CPF: </label>
+            <input id="cpf" type="text" name="cpf" placeholder="Escreva seu CPF aqui..." required><br>
+
+            <label for="uf">UF: </label>
+            <select name="uf" id="uf">
+                <option value="SP">São Paulo</option>
+                <option value="PR">Paraná</option>
+                <option value="RS">Rio Grande do Sul</option>
+            </select><br><br>
+
+            <fieldset>
+                <legend>Gênero:</legend>
+                <input type="radio" name="genero" value="F" id="generoF">
+                <label for="generoF">Feminino</label>
+
+                <input type="radio" name="genero" value="M" id="generoM">
+                <label for="generoM">Masculino</label>
+
+                <input type="radio" name="genero" value="N" id="generoN">
+                <label for="generoN">Não informar</label>
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Avaliação do formulário:</legend>
+                <input type="checkbox" name="avaliacao" id="avaliacao_bom" value="Bom">
+                <label for="avaliacao_bom">BOM</label>
+
+                <input type="checkbox" name="avaliacao" id="avaliacao_regular" value="Regular">
+                <label for="avaliacao_regular">REGULAR</label>
+
+                <input type="checkbox" name="avaliacao" id="avaliacao_ruim" value="Ruim">
+                <label for="avaliacao_ruim">RUIM</label>
+            </fieldset><br>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Cancelar</button>
+        </form>
+    </section>
+
+    <section class="conteudo_principal">
+        <footer>
+            <h1 class="titulo_cabecalho">Paginas de navegação</h1>
+            <button><a href="estrutura_html.html"><strong>Estrutura HTML</strong></a></button>
+            <button><a href="imagens.html"><strong>Imagens de desenvolvimento</strong></a></button>
+            <button><a href="index.html"><strong>Estrutura de pasta</strong></a></button>
+        </footer>
+    </section>
+</body>
+</html>
