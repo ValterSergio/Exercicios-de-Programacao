@@ -1,0 +1,68 @@
+.div_base {
+    width: 300px;
+    background-color: yellow;
+    color: black;
+    padding: 20px; /* espaçamento interno */
+    border: 3px groove aqua;
+    margin: 20px auto; /* margem */
+    text-align: center; /* centraliza o conteúdo */
+}
+
+/* Título */
+.titulo_cabecalho {
+    font-size: 300%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Subtitulo h2 */
+h2 {
+    font-size: 150%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Paragrafo padrao */
+.paragrafo_padrao {
+    text-indent: 30px;
+    font-size: 110%;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+/* Tabela */
+.table_base {
+    width: 300px;
+    border-collapse: collapse; /* remove espaçamento entre células */
+}
+th {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px; /* mais uniforme */
+}
+td {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px; /* mais uniforme */
+}
+
+tr {
+    background-color: antiquewhite;
+}
+
+/* Botoes */
+button {
+    width: 100%;
+    padding: 1%;
+    background-color: bisque;    
+}
+a {
+    text-decoration: none; /*Remover sublinhado */
+    color: black;
+    font-size: 20px;
+}
+
+/* Section */
+section {
+    background-color: aqua;
+    text-align: justify;
+    width: 300px;
+}

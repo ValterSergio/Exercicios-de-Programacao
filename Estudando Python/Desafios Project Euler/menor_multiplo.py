@@ -75,6 +75,6 @@ def encontrarMMC(lista_fatores: list):
 
 
 if __name__ == "__main__":
-    lista_multiplos = [x for x in range(2, 21)]
+    lista_multiplos = [x for x in range(2, 11)]
     mmc = encontrarMMC(lista_multiplos)
     print(f"O menor número divisivel por todos os números de 1 a 20 é {mmc:,}")

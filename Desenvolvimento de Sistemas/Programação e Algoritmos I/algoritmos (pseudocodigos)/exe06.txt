@@ -1,0 +1,32 @@
+/*
+ * Elabore um programa que receba dois valores e calcule:
+ * 1) 20% da soma
+ * 2) 30% do produto
+ * 3) 40% das soma dos quadrados
+ * 
+ */
+
+VAR 
+    num1: real
+    num2: real
+    porcentagem_soma: real
+    porcentagem_produto: real
+    porcentagem_quadrados: real
+
+INICIO
+    // entrada
+    mostrar("Informe o 1° numero: ")
+    ler(num1)
+    mostrar("Informe o 2° numero: ")
+    ler(num2)
+
+    // processamento
+    calcular: porcentagem_soma <- (num1 + num2) * 0.2
+
+    calcular: porcentagem_produto <- (num1 * num2) * 0.3
+    calcular: porcentagem_quadrados <- ((num1^2) + (num2^2)) * 0.4
+
+    // saida
+    exibir("20% da soma: ", porcentagem_soma)
+    exibir("30% do produto: ", porcentagem_produto)
+    exibir("40% da soma dos quadrados: ", porcentagem_quadrados)

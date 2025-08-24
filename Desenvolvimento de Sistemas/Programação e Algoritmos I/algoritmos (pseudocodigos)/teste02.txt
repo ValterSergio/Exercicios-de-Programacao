@@ -1,0 +1,23 @@
+Elaborar um programa para uma pizzaria, o qual o valor total de uma conta
+e quantos clientes vão pagá-la. Calcule o valor pago por cliente.
+
+VAR
+    conta: real
+    clientes: inteiro
+    valor: real
+
+INICIO
+    // ENTRADA
+    mostrar("Informe o valor da conta: ")
+    ler(conta)
+
+    mostrar("Informe a quantidade de clientes: ")
+    ler(clientes)
+
+    // PROCESSAMENTO
+    valor <- conta / clientes
+
+    // SAÍDA
+    exibir("Valor por cliente: ", valor)
+
+FIM

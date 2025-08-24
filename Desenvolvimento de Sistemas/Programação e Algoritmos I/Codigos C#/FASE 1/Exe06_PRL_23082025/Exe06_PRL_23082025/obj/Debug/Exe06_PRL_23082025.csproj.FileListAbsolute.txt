@@ -1,0 +1,7 @@
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Codigos C#\FASE 1\Exe06_PRL_23082025\Exe06_PRL_23082025\bin\Debug\Exe06_PRL_23082025.exe.config
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Codigos C#\FASE 1\Exe06_PRL_23082025\Exe06_PRL_23082025\bin\Debug\Exe06_PRL_23082025.exe
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Codigos C#\FASE 1\Exe06_PRL_23082025\Exe06_PRL_23082025\bin\Debug\Exe06_PRL_23082025.pdb
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Codigos C#\FASE 1\Exe06_PRL_23082025\Exe06_PRL_23082025\obj\Debug\Exe06_PRL_23082025.csproj.AssemblyReference.cache
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Codigos C#\FASE 1\Exe06_PRL_23082025\Exe06_PRL_23082025\obj\Debug\Exe06_PRL_23082025.csproj.CoreCompileInputs.cache
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Codigos C#\FASE 1\Exe06_PRL_23082025\Exe06_PRL_23082025\obj\Debug\Exe06_PRL_23082025.exe
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Codigos C#\FASE 1\Exe06_PRL_23082025\Exe06_PRL_23082025\obj\Debug\Exe06_PRL_23082025.pdb
