@@ -1,0 +1,39 @@
+/*
+ * Faça o algoritmo e a programação (Estrutura Lógica), para calcular o salário de um funcionário.
+ *
+ * Sabendo-se que ele é um horista (ou seja, trabalha por hora), temos como entrada:
+ *
+ *     > O número de horas trabalhadas;
+ *
+ * Deve-se calcular:
+ *
+ *     > O salário bruto do funcionário será horas trabalhadas multiplicado por R$ 10,37 por hora;
+ *     > 11% de impostos sobre o salário bruto do funcionário;
+ *     > Salário líquido será o salário bruto menos os impostos;
+ *
+ * Pede-se para gravar:
+ *
+ *     > Salário líquido;
+ *     > Salário bruto;
+ *     > Impostos;
+ */
+
+VAR
+    HR: real
+    SB: real
+    SL: real
+    IMP: real
+
+INICIO
+    mostrar("Digite o número de horas trabalhadas: ")
+    ler(HR)
+
+    Calcular: SB <- HR * 10.37
+    Calcular: IMP <- SB * 0.11
+    Calcular: SL <- SB - IMP
+
+    Gravar:("Salário Líquido: ", SL)
+    Gravar:("Salário Bruto: ", SB)
+    Gravar:("Impostos: ", IMP)
+
+FIM

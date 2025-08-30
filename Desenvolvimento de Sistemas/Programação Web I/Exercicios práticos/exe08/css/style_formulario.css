@@ -12,7 +12,7 @@
     display: grid;
 
     /* Define a grade do grid */
-    grid-template: 1fr 1fr 2fr 1fr / 3fr 1fr; /* Assim é mais direto == menos linhas rsrs*/
+    grid-template: 1fr 1fr 2fr 1fr / 1fr 3fr 1fr; /* Assim é mais direto == menos linhas rsrs*/
     
     /* Fonte única */
     border: solid;
@@ -23,7 +23,7 @@
 .container header {
     /* Posicionando cabeçalho na grid*/
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;  
     
@@ -37,46 +37,12 @@
     color: aqua;
 }
 
-/* Personalizando Barra de Navegação */
-.container nav {
-    /* Posicionando barra de navegação na grid */
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;  
-    
-    /* Definindo a margem */
-    margin: 1px;
-}
-
-.container nav h1 {
-    /* Personalizando o titulo da página */
-    font-size: 42px;
-    text-align: center;
-    color: aqua;
-}
-
-.container nav button {
-    /* Personalizando botão de nav */
-    margin: 2px;
-    width: 48%;
-    background-color: transparent;
-    border: none;
-}
-
-.container nav button a {
-    /* Personalizando ancoras do botão */
-    font-size: large;
-    background-color: transparent;
-    color: aquamarine;
-}
-
 /* Personalizando Conteudo principal  (index.html) */
 .container main {
     /* Posicionando o conteudo princial na grid */
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
     grid-row-end: 4;
     
     /* Definindo uma margem */
@@ -84,6 +50,22 @@
 
 }
 
+.container main form {
+    width: 100%;
+}
+.container main form label{
+    font-size: 120%;
+    color: aqua;
+}
+.container main form input{
+    width: 53%;
+    background-color: transparent;
+    color: cyan;
+}
+.container main form button{
+    background-color: transparent;
+    color: aqua;
+}
 .container main h1 {
     /* Definindo titulo do conteudo principal */
     font-size: xx-large;
@@ -93,18 +75,28 @@
 
 .container main p {
     /* Definindo paragrafos */
-    font-size: medium;
+    font-size: large;
     text-indent: 20px;
     color: aquamarine;
     text-align: justify;
 }
 
 /* Personalizando aside direito */
-.container aside {
+.container aside#direita {
     /* Definindo aside lateral direito */
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    
+    /* Definindo margem */
+    margin: 1px;
+}
+.container aside#esquerda {
+    /* Definindo aside lateral direito */
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
     grid-row-end: 4;
     
     /* Definindo margem */
@@ -117,17 +109,37 @@
     color: aqua;
 }
 
+
+/* Personalizando Barra de Navegação */
 .container footer {
+    /* Posicionando barra de navegação na grid */
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
     grid-row-start: 4;
+    grid-row-end: 5;  
     
-    /* Definindo margem */
+    /* Definindo a margem */
     margin: 1px;
 }
 
 .container footer h1 {
-    font-size: xx-large;
+    /* Personalizando o titulo da página */
+    font-size: 42px;
     text-align: center;
     color: aqua;
+}
+
+.container footer button {
+    /* Personalizando botão de footer */
+    margin: 2px;
+    width: 48%;
+    background-color: transparent;
+    border: none;
+}
+
+.container footer button a {
+    /* Personalizando ancoras do botão */
+    font-size: large;
+    background-color: transparent;
+    color: aquamarine;
 }

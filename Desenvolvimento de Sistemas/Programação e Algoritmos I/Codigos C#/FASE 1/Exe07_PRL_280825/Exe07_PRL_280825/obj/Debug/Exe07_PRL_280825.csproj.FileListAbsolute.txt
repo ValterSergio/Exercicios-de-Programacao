@@ -1,0 +1,8 @@
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Codigos C#\FASE 1\Exe07_PRL_280825\Exe07_PRL_280825\bin\Debug\Exe07_PRL_280825.exe.config
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Codigos C#\FASE 1\Exe07_PRL_280825\Exe07_PRL_280825\bin\Debug\Exe07_PRL_280825.exe
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Codigos C#\FASE 1\Exe07_PRL_280825\Exe07_PRL_280825\bin\Debug\Exe07_PRL_280825.pdb
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Codigos C#\FASE 1\Exe07_PRL_280825\Exe07_PRL_280825\obj\Debug\Exe07_PRL_280825.csproj.AssemblyReference.cache
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Codigos C#\FASE 1\Exe07_PRL_280825\Exe07_PRL_280825\obj\Debug\Exe07_PRL_280825.csproj.CoreCompileInputs.cache
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Codigos C#\FASE 1\Exe07_PRL_280825\Exe07_PRL_280825\obj\Debug\Exe07_PRL_280825.exe
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Codigos C#\FASE 1\Exe07_PRL_280825\Exe07_PRL_280825\obj\Debug\Exe07_PRL_280825.pdb
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Codigos C#\FASE 1\Exe07_PRL_280825\Exe07_PRL_280825\obj\Debug\Exe07_PRL_280825.exe.config

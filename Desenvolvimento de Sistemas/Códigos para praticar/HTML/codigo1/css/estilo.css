@@ -1,0 +1,178 @@
+/* Cabelho inicial */
+.cabecalho {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    border: solid;
+
+    
+    /* distancia minima dos elementos */
+    gap: 0.5%;
+    margin: 1%;
+    padding: 1%;
+
+    /* altura */
+    height: 30%;
+}
+
+.cabecalho h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+    border: solid;
+    padding: 1%;
+    margin: 1%;
+
+    height: 50%;
+}
+
+.cabecalho nav {
+    font-family: 'Courier New', Courier, monospace;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border: solid;
+    margin: 1%;
+    padding: 1%;
+
+}
+
+.cabecalho nav h3 {
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+}
+
+.cabecalho nav ul {
+    margin: 1%;
+}
+
+.cabecalho nav ul li {
+    font-size: 120%;
+    margin: 1%;
+}
+
+/* Bloco Principal */
+#principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr;
+    
+    /* distancia minima dos elementos */
+    gap: 1%;
+    margin: 1%;
+    padding: 1%;
+
+    height: 70%;
+    /* bordas para teste */
+    border: solid;
+    border-color: black;
+}
+
+#principal h1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+    /* distancia minima dos elementos */
+    gap: 1%;
+    margin: 1%;
+    padding: 1%;
+    
+    
+    text-align: center;
+    border: solid;
+    border-color: black;
+}
+
+#principal p {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+    /* distancia minima dos elementos */
+    gap: 1%;
+    margin: 1%;
+    padding: 1%;
+    
+    /* estilizando paragrafo */
+    text-align: justify;
+    text-indent: 10px;
+    
+    border: solid;
+    border-color: black;
+}
+
+#principal aside {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;    
+    grid-row-end: 4;    
+    
+    /* distancia minima dos elementos */
+    gap: 1%;
+    margin: 1%;
+    padding: 1%;
+    
+    border: solid;
+}
+
+#principal aside h1 {
+    border: none;
+}
+
+#principal aside p {
+    border: none;
+}
+
+.rodape {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 2.5fr;
+    grid-template-rows: 1fr ;
+    height: 10%;
+    border: solid;
+    /* distancia minima dos elementos */
+    gap: 1%;
+    margin: 1%;
+    padding: 1%;
+}
+
+.rodape figure {
+    /* distancia minima dos elementos */
+    gap: 1%;
+    margin: 1%;
+    padding: 1%;
+    border: solid;
+
+    justify-self: start;
+    align-self: center;   
+    
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.rodape #coluna1 {
+    /* distancia minima dos elementos */
+    gap: 1%;
+    margin: 1%;
+    padding: 1%;
+}
+
+.rodape #coluna2 {
+    /* distancia minima dos elementos */
+    gap: 1%;
+    margin: 1%;
+    padding: 1%;
+}
+
+body {
+    border: solid;
+}

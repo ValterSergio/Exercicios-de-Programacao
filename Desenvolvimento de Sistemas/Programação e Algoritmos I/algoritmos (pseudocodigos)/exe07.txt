@@ -1,0 +1,39 @@
+/* 
+ * Elabore o algoritmo e a programacao para calcular o valor de um carro:
+ * Calcule o preço final de um carro novo, tendo como entrada o seu "Custo de Fabricaçao".
+ * Fórmula:
+ * Preco Consumidor = Custo de Fabricacao + Porcentagem ao Distribuidor + Impostos
+ * 
+ * Onde:
+ * · Porcentagem ao distribuidor é 15 porcento sobre o custo de fabricação;
+ * · Impostos é 42 porcento sobre o custo de fabricação;
+ * 
+ * Pede-se para exibir ao Final:
+ * . Impostos, Porcentagem ao Distribuidor, Preço ao Consumidor;
+ * 
+ * Legenda:
+ * CF = Custo de Fabricação
+ * IMP = Impostos
+ * PD = Porcentagem ao Distribuidor
+ * PC = Preço ao Consumidor
+ * 
+ */
+ 
+VAR
+    CF: real
+    IMP: real
+    PD: real
+    PC: real
+
+INICIO
+    mostrar("Digite o custo de produção: ")
+    ler(CF)
+
+    Calcular: PD <- CF * 0.15
+    Calcular: IMP <- CF * 0.42
+    Calcular: PC <- PD + IMP + CF
+
+    exibir("Impostos: ", IMP)
+    exibir("Porcentagem ao Distribuidor: ", PD)
+    exibir("Preço ao Consumidor: ", PC)
+FIM

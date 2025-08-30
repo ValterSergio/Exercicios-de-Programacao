@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/exe08/css/style_formulario.css">
+    <title>Formularios na grid</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Grid com Formulario</h1>
+        </header>
+        <main>
+            <h1>Apresentando um formulario</h1>
+            <p>Formulario simples que pergunta nome, email e senha</p>
+            <form action="get" method="get">
+                <label for="nome">Informe o seu nome: </label>
+                <input type="text" placeholder="digite seu nome..." autofocus>
+                <br>
+                <label for="email">informe o seu e-mail: </label>
+                <input type="email" name="mail" id="mail" pattern=".+@etec.sp.gov" placeholder="informe o email da etec...">
+                <br>
+                <label for="senha">Informe a senha: </label>
+                <input type="password" name="senha" id="senha" >
+                <br>
+                <button type="submit">Fazer Login</button>
+                <button type="reset">Cancelar</button>
+            </form>
+        </main>
+        <aside id="direita">
+            <h1>Barra lateral direita</h1>
+        </aside>
+        <aside id="esquerda">
+            <h1>Barra lateral esquerda</h1>
+        </aside>
+        <footer>
+            <h1>rodape</h1>
+            <button><a href="/exe08/index.html">Pagina inicial</a></button>
+            <button><a href="/exe08/tabela_grid.html">Tabela</a></button>
+        </footer>
+    </div>
+</body>
+</html>
