@@ -1,0 +1,8 @@
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Project Euler\Exe6_310825\Exe6_310825\bin\Debug\Exe6_310825.exe.config
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Project Euler\Exe6_310825\Exe6_310825\bin\Debug\Exe6_310825.exe
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Project Euler\Exe6_310825\Exe6_310825\bin\Debug\Exe6_310825.pdb
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Project Euler\Exe6_310825\Exe6_310825\obj\Debug\Exe6_310825.csproj.AssemblyReference.cache
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Project Euler\Exe6_310825\Exe6_310825\obj\Debug\Exe6_310825.csproj.CoreCompileInputs.cache
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Project Euler\Exe6_310825\Exe6_310825\obj\Debug\Exe6_310825.exe
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Project Euler\Exe6_310825\Exe6_310825\obj\Debug\Exe6_310825.pdb
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Project Euler\Exe6_310825\Exe6_310825\obj\Debug\Exe6_310825.exe.config

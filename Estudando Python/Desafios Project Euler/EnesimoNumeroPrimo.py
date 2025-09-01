@@ -44,7 +44,7 @@ def checar_primo(num):
     return True
 
 # Começar com o número 2 (o primeiro número primo)
-num = 2
+num = 1
 # Contador de primos encontrados
 contador = 0
 

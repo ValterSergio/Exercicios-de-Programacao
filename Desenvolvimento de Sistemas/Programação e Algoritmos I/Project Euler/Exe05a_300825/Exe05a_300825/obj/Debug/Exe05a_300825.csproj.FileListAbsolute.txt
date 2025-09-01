@@ -1,0 +1,8 @@
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Project Euler\Exe05a_300825\Exe05a_300825\bin\Debug\Exe05a_300825.exe.config
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Project Euler\Exe05a_300825\Exe05a_300825\bin\Debug\Exe05a_300825.exe
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Project Euler\Exe05a_300825\Exe05a_300825\bin\Debug\Exe05a_300825.pdb
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Project Euler\Exe05a_300825\Exe05a_300825\obj\Debug\Exe05a_300825.csproj.AssemblyReference.cache
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Project Euler\Exe05a_300825\Exe05a_300825\obj\Debug\Exe05a_300825.csproj.CoreCompileInputs.cache
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Project Euler\Exe05a_300825\Exe05a_300825\obj\Debug\Exe05a_300825.exe
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Project Euler\Exe05a_300825\Exe05a_300825\obj\Debug\Exe05a_300825.pdb
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Programação e Algoritmos I\Project Euler\Exe05a_300825\Exe05a_300825\obj\Debug\Exe05a_300825.exe.config

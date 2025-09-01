@@ -1,178 +1,282 @@
-/* Cabelho inicial */
+/* ===========================
+   CABEÇALHO
+   Estrutura principal do cabeçalho
+   =========================== */
 .cabecalho {
+    /* Layout */
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 3fr;
-    border: solid;
+    grid-template-columns: 1fr 1fr 1fr;  /* 3 colunas */
+    grid-template-rows: 1fr 3fr;         /* 2 linhas */
 
-    
-    /* distancia minima dos elementos */
+    /* Tamanho */
+    height: 30%;
+
+    /* Espaçamento */
     gap: 0.5%;
     margin: 1%;
     padding: 1%;
 
-    /* altura */
-    height: 30%;
+    /* Bordas */
+    border: solid;
+
+    /* Cor de fundo */
+    background-color: #09FB0D;
 }
 
+/* ===========================
+   Título do cabeçalho
+   =========================== */
 .cabecalho h1 {
-    text-align: center;
+    /* Tipografia */
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 
+    /* Posição no grid */
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
-    
-    border: solid;
-    padding: 1%;
-    margin: 1%;
 
+    /* Tamanho */
     height: 50%;
+
+    /* Espaçamento */
+    margin: 1%;
+    padding: 1%;
+
+    /* Bordas */
+    border: solid;
 }
 
+/* ===========================
+   Navegação no cabeçalho
+   =========================== */
 .cabecalho nav {
+    /* Tipografia */
     font-family: 'Courier New', Courier, monospace;
+
+    /* Posição no grid */
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
+
+    /* Espaçamento */
+    margin: 1%;
+    padding: 1%;
+
+    /* Bordas */
     border: solid;
-    margin: 1%;
-    padding: 1%;
-
 }
 
+/* Títulos dentro da navegação */
 .cabecalho nav h3 {
+    /* Tipografia */
     text-align: center;
+
+    /* Espaçamento */
     margin: 1%;
     padding: 1%;
 }
 
+/* Lista de navegação */
 .cabecalho nav ul {
     margin: 1%;
 }
 
+/* Itens da lista de navegação */
 .cabecalho nav ul li {
     font-size: 120%;
     margin: 1%;
 }
 
-/* Bloco Principal */
+/* ===========================
+   BLOCO PRINCIPAL
+   =========================== */
 #principal {
+    /* Layout */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 4fr 1fr;
-    
-    /* distancia minima dos elementos */
+
+    /* Tamanho */
+    height: 70%;
+
+    /* Espaçamento */
     gap: 1%;
     margin: 1%;
     padding: 1%;
 
-    height: 70%;
-    /* bordas para teste */
+    /* Bordas */
     border: solid;
     border-color: black;
+
+    /* Cor de fundo */
+    background-color: #7EFB09;
 }
 
+/* Título dentro do bloco principal */
 #principal h1 {
+    /* Posição no grid */
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-    
-    /* distancia minima dos elementos */
-    gap: 1%;
+
+    /* Tipografia */
+    text-align: center;
+
+    /* Espaçamento */
     margin: 1%;
     padding: 1%;
-    
-    
-    text-align: center;
+
+    /* Bordas */
     border: solid;
     border-color: black;
 }
 
+/* Parágrafo no bloco principal */
 #principal p {
+    /* Posição no grid */
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 4;
 
-    /* distancia minima dos elementos */
-    gap: 1%;
-    margin: 1%;
-    padding: 1%;
-    
-    /* estilizando paragrafo */
+    /* Tipografia */
     text-align: justify;
     text-indent: 10px;
-    
+
+    /* Espaçamento */
+    margin: 1%;
+    padding: 1%;
+
+    /* Bordas */
     border: solid;
     border-color: black;
 }
 
+/* Barra lateral (aside) */
 #principal aside {
+    /* Posição no grid */
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;    
     grid-row-end: 4;    
-    
-    /* distancia minima dos elementos */
-    gap: 1%;
+
+    /* Espaçamento */
     margin: 1%;
     padding: 1%;
-    
+
+    /* Bordas */
     border: solid;
 }
 
+/* Removendo bordas internas do aside */
 #principal aside h1 {
     border: none;
 }
-
 #principal aside p {
     border: none;
 }
 
+/* ===========================
+   TABELAS NO ASIDE
+   =========================== */
+#principal aside figure table {
+    /* Bordas */
+    border: groove;
+    border-width: 10px;
+    border-color: #09FB0D #09FB86;
+
+    /* Cor de fundo */
+    background-color: #09FB86;
+
+    /* Espaçamento */
+    margin: 1%;
+    padding: 1%;
+}
+
+/* Linhas da tabela */
+#principal aside figure table tr {
+    margin: 1%;
+    padding: 1%;
+}
+
+/* Cabeçalhos da tabela */
+#principal aside figure table th {
+    /* Cor */
+    background-color: #09FB0D;
+
+    /* Espaçamento */
+    margin: 1%;
+    padding: 1%;
+
+    /* Bordas */
+    border: solid;
+}
+
+/* Células da tabela */
+#principal aside figure table td {
+    /* Espaçamento */
+    margin: 1%;
+    padding: 1%;
+
+    /* Bordas */
+    border: solid;
+}
+
+/* ===========================
+   RODAPÉ
+   =========================== */
 .rodape {
+    /* Layout */
     display: grid;
     grid-template-columns: 1fr 2.5fr 2.5fr;
-    grid-template-rows: 1fr ;
+    grid-template-rows: 1fr;
+
+    /* Tamanho */
     height: 10%;
-    border: solid;
-    /* distancia minima dos elementos */
+
+    /* Espaçamento */
     gap: 1%;
     margin: 1%;
     padding: 1%;
+
+    /* Bordas */
+    border: solid;
 }
 
+/* Figura no rodapé */
 .rodape figure {
-    /* distancia minima dos elementos */
-    gap: 1%;
-    margin: 1%;
-    padding: 1%;
-    border: solid;
-
-    justify-self: start;
+    /* Posição */
+    justify-self: end;
     align-self: center;   
-    
     grid-column-start: 1;
     grid-column-end: 2;
-}
 
-.rodape #coluna1 {
-    /* distancia minima dos elementos */
-    gap: 1%;
+    /* Espaçamento */
     margin: 1%;
     padding: 1%;
-}
 
-.rodape #coluna2 {
-    /* distancia minima dos elementos */
-    gap: 1%;
-    margin: 1%;
-    padding: 1%;
-}
-
-body {
+    /* Bordas */
     border: solid;
+}
+
+/* Colunas no rodapé */
+.rodape #coluna1,
+.rodape #coluna2 {
+    margin: 1%;
+    padding: 1%;
+}
+
+/* ===========================
+   BODY (Corpo da página)
+   =========================== */
+body {
+    /* Bordas */
+    border: solid;
+
+    /* Cor de fundo */
+    background-color: #09FB86;
 }

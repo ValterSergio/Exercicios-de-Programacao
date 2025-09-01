@@ -1,4 +1,5 @@
 """
+
 2520 é o menor numero que pode ser dividido por cada um dos numeros de 1 a 10 sem qualquer resto.
 
 Qual é o menor número positivo que é uniformemente divisível por todos os números de 1 a 20?
@@ -75,6 +76,6 @@ def encontrarMMC(lista_fatores: list):
 
 
 if __name__ == "__main__":
-    lista_multiplos = [x for x in range(2, 11)]
+    lista_multiplos = [x for x in range(2, 51)]
     mmc = encontrarMMC(lista_multiplos)
     print(f"O menor número divisivel por todos os números de 1 a 20 é {mmc:,}")

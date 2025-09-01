@@ -1,77 +1,114 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <!-- Configuração do documento -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Importando o arquivo CSS -->
     <link rel="stylesheet" href="/codigo1/css/estilo.css">
     <title>Conceitos básicos</title>
 </head>
 <body>
-    <!-- Cabeçalho -->
+    <!-- ==================== CABEÇALHO DA PÁGINA ==================== -->
     <header class="cabecalho">
+        <!-- Título principal do site -->
         <h1>Atividade de Programação Web</h1>
+        
+        <!-- Navegação principal -->
         <nav>
-            <h3>Exercicios encontrados no projeto</h3>
+            <h3>Exercícios encontrados no projeto</h3>
             <ul>
                 <li>Estrutura básica</li>
                 <li>Tabelas</li>
-                <li>Formularios</li>
-                <li>Divs</li>
+                <li>Listas não ordenadas</li>
+                <li>Figuras e imagens</li>
+                <li>Espaçamento/Alinhamento entre elementos</li>
+                <li>Links (ancoras)</li>
+                <li>Semântica básica</li>
+                <li>ID's e classes</li>
                 <li>Grid-layout</li>
+                <li>Propriedades básicas CSS</li>
             </ul>
         </nav>
     </header>
 
-    <!-- Bloco Principal -->
-     <main id="principal">
-        <h1>
-            Titulos e parágrafos
-        </h1>
+    <!-- ==================== BLOCO PRINCIPAL ==================== -->
+    <main id="principal">
+        <!-- Título do conteúdo principal -->
+        <h1>Títulos e parágrafos</h1>
+        
+        <!-- Explicação sobre títulos e parágrafos -->
         <p>
-            Quando precisamos usar titulos, subtitulos, ou outros niveis de texto temos as tags <strong>h1, h2, h3, h4, h5 e h6</strong> cada número seguido da letra H minuscula possui um tamanho diferente de texto. <br>
-            &nbsp;&nbsp;Para criar parágrafos podemos usar a tag <strong>p</strong> ela permite escrever textos usando várias linhas de texto.
-            <br>&nbsp;&nbsp;Quando escrevemos textos sem tags. O texto não gera uma quebra de linha automaticamente para começar outra, nesse caso usamos a tag <strong>BR</strong>. <br>&nbsp;&nbsp;Nesse caso devemos estar atentos ao uso correto: <br>&nbsp;&nbsp;<strong>Inicio do texto: </strong> Na primeira linha antes do texto <br>
-            Exemplo: <br>
-            &nbsp;&nbsp;&nbsp;&nbsp; &lt;br&gt; um texto qualquer
-
-            <br>&nbsp;&nbsp;<strong>Continuação de linha:</strong> No final da segunda linha <br>
-            Exemplo: <br>
-            &nbsp;&nbsp;&nbsp;&nbsp; um texto qualquer &lt;br&gt; <br>&nbsp;&nbsp;<strong>Final da terceira linha: </strong>Igual ao anterior <br>
-            Exemplo: <br>
-            &nbsp;&nbsp;&nbsp;&nbsp; um texto qualquer &lt;br&gt;
+            Quando precisamos usar títulos, subtítulos ou outros níveis de texto, temos as tags 
+            <strong>h1, h2, h3, h4, h5 e h6</strong>. Cada número seguido da letra H minúscula possui um tamanho diferente de texto.
+            <br><br>
+            
+            &nbsp;&nbsp;Para criar parágrafos podemos usar a tag <strong>&lt;p&gt;</strong>. Ela permite escrever textos usando várias linhas de texto.
+            <br><br>
+            
+            &nbsp;&nbsp;Quando escrevemos textos sem tags, o texto não gera uma quebra de linha automaticamente para começar outra. 
+            Nesse caso usamos a tag <strong>&lt;br&gt;</strong>.
+            <br><br>
+            
+            &nbsp;&nbsp;Devemos estar atentos ao uso correto:
+            <br><br>
+            
+            <strong>Início do texto:</strong> Na primeira linha antes do texto.
+            <br>
+            Exemplo:
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt; um texto qualquer
+            <br><br>
+            
+            <strong>Continuação de linha:</strong> No final da segunda linha.
+            <br>
+            Exemplo:
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;um texto qualquer &lt;br&gt;
+            <br><br>
+            
+            <strong>Final da terceira linha:</strong> Igual ao anterior.
+            <br>
+            Exemplo:
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;um texto qualquer &lt;br&gt; <br> <br>
         </p>
-        <!-- Lateral direita do bloco principal -->
+
+        <!-- ==================== BARRA LATERAL (ASIDE) ==================== -->
         <aside>
             <h1>Figuras</h1>
             <p>
-                &nbsp;&nbsp;Tambem podemos adicionar figuras e  imagens ao documento html usando as tag <strong>&lt;figure&gt;</strong>.<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;Exemplo: 
+                &nbsp;&nbsp;Também podemos adicionar figuras e imagens ao documento HTML usando a tag 
+                <strong>&lt;figure&gt;</strong>.
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;Exemplo:
             </p>
+            
             <figure>
-                <img src="/codigo1/img/download.jpeg" alt="Mago do Circo de solei - Espetaculo alegria">
+                <img src="/codigo1/img/download.jpeg" alt="Mago do Circo de Soleil - Espetáculo Alegria">
             </figure>
         </aside>
     </main>
 
-    
-    <!-- Rodapé da pagina -->
-    <footer class="rodape">    
+    <!-- ==================== RODAPÉ DA PÁGINA ==================== -->
+    <footer class="rodape">
+        <!-- Logotipo ou imagem ilustrativa -->
         <figure>
-            <img src="/codigo1/img/rasta.png" alt="RastaFari observando a materia !">
+            <img src="/codigo1/img/rasta.png" alt="RastaFari observando a matéria!">
         </figure>
+
+        <!-- Primeira coluna do rodapé -->
         <aside id="coluna1">
             <h1>Guia do site</h1>
-            <a href="/codigo1/tabela.html
-            ">TABELA</a> <br>
-            <a href="">FORMULARIO</a> <br>
+            <a href="/codigo1/tabela.html">TABELA</a>
         </aside>
+
+        <!-- Segunda coluna do rodapé -->
         <aside id="coluna2">
             <h1>Fale com a gente</h1>
             <p><strong>EMAIL: </strong>email@email.com</p>
             <p><strong>TELEFONE: </strong>(xx) xxxx-xxxx</p>
         </aside>
     </footer>
-
-
 </body>
 </html>
